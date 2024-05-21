@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title> Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <div class="navbar">
+      <div class="container">
+        <div class="nav">
+          <!-- logo  -->
+          <a href="#" class="logo"> Mulualem Portfolio</a>
+          <!-- links  -->
+          <ul class="links">
+            <li>
+              <a href="#" class="nav-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">about</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">services</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link">projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">contact</a>
+            </li>
+          </ul>
+          <!-- toggles  -->
+          <div class="toggles">
+            <!-- toggle nav links  -->
+            <button class="toggle-links">
+              <i class="bx bx-menu"></i>
+            </button>
+            <!-- toggle contact right bar  -->
+            <button class="toggle-contact-right-bar">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT RIGHT BAR  -->
+    <div class="contact-right-bar">
+      <div class="contact-header">
+        <!-- small logo  -->
+        
+        <button class="circle-btn close-contact">
+          <i class="bx bx-x"></i>
+        </button>
+      </div>
+      <div class="contact-body">
+        <div class="top">
+          <h4 class="contact-title">about us</h4>
+          <p>
+            I'm Mulualem Melkamu a full stck Developer and Graphic Designer
+          </p>
+        </div>
+        <div class="bottom">
+          <h4 class="contact-title">get in touch</h4>
+          <!-- contact right bar form  -->
+          <form>
+            <div class="input-group">
+              <input
+                type="text"
+                required
+                placeholder="Your Name"
+                class="input-contact"
+              />
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                required
+                placeholder="Your Email"
+                class="input-contact"
+              />
+            </div>
+            <div class="input-group">
+              <textarea
+                required
+                placeholder="Message"
+                class="message-contact"
+              ></textarea>
+            </div>
+            <div class="input-group">
+              <button type="submit" class="btn">Submit Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- BANNER -->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="text-col">
+            <h2 class="banner-heading">
+              Hello, I'M Mulualem 
+              <span>Full Stack Developer</span>
+            </h2>
+            <p>
+              I'm a passionate Full stack developer, Graphic designer and Apps development designer with a mission to create
+              delightful and intuitive digital experiences. 
+            </p>
+            <div class="btn-container">
+              <button class="btn download-btn flex items-center">
+                Download CV <i class="bx bx-download"></i>
+              </button>
+              
+            </div>
+          </div>
+          <!-- right column -->
+          <div class="img-col">
+            <div class="img">
+              <img
+                src="image/alienware-Hpaq-kBcYHk-unsplash.jpg"
+                alt="banner-img"
+                class="banner-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT  -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <!-- left column  -->
+          <div class="col-2">
+            <!-- title and subtitle -->
+            <h3 class="section-title">about me</h3>
+          
+            <div class="my-20">
+              <div class="flex gap-20">
+                <div class="line my-10"></div>
+                <div>
+                  <p>
+                    My Name is Mulualem Melkamu a Full Stack Developer And Graphics Designer
+                  </p>
+                  <div class="my-40">
+                    <button class="btn download-btn flex items-center gap-10">
+                      Download CV <i class="bx bxs-download"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- right column  -->
+          <div class="col-2 text-right-lg-left" data-aos="fade-left">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES  -->
+    <section class="services" id="services">
+      <div class="container">
+        <!-- title and subtitle -->
+        <h3 class="section-title text-center">my services</h3>
+        <h5 class="section-subtitle-center" data-aos="fade-up">
+         Full Stack Developer, Graphic Designer and App Devekoper
+        </h5>
+        <!-- services list -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-3" data-aos="fade-right">
+            <div class="service-icon"><i class="bx bx-code-alt"></i></div>
+            <div class="card">
+              <div class="card-title">website design</div>
+              
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-3" data-aos="fade-up">
+            <div class="service-icon"><i class="bx bxl-sketch"></i></div>
+            <div class="card">
+              <div class="card-title">logo design</div>
+              
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-3" data-aos="fade-left">
+            <div class="service-icon"><i class="bx bxl-codepen"></i></div>
+            <div class="card">
+              <div class="card-title">apps development</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+          
+    <!-- PROJECTS  -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <!-- title and subtitle  -->
+        <h3 class="section-title">my recent portfolio</h3>
+        <!-- projects list  -->
+        <div class="flex justify-between flex-wrap my-50 gap-20">
+          <!-- column 1 -->
+          <div class="col-3xl" data-aos="fade-right">
+            <div class="project">
+              <img
+                src="image/chris-barbalis-ZOPfX_KlURk-unsplash.jpg"
+                alt="project-img"
+                class="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>School Website</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>Youtube</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-1sm" data-aos="fade-left">
+            <div class="project">
+              <img
+                src="image/clement-helardot-95YRwf6CNw8-unsplash.jpg"
+                alt="project-img"
+                class="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>Personal Website</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>youtube</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-2sm" data-aos="fade-right">
+            <div class="project">
+              <img
+                src="image/daniel-korpai-n0mabeJj6_s-unsplash.jpg"
+                alt="project-img"
+                class="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>Organization Website</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>youtube</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 4 -->
+          <div class="col-2sm" data-aos="fade-left">
+            <div class="project">
+              <img
+                src="image/domenico-loia-hGV2TfOh0ns-unsplash.jpg"
+                alt="project-img"
+                class="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>Bussines Website</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>youtube</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT  -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="flex flex-wrap justify-between">
+          <!-- column 1 -->
+          <div class="col-2">
+            <!-- title and subtitle -->
+            <h3 class="section-title">contact me</h3>
+            <h5 class="section-subtitle-left" data-aos="fade-up">
+              Design website 
+            </h5>
+            <div class="my-40">
+              
+            </div>
+            <div class="row">
+              <!-- column 1 -->
+              <div class="col-2" data-aos="fade-up">
+                <div class="contact-card flex flex-col items-center gap-20">
+                  <div class="contact-card-icon">
+                    <i class="bx bx-git-pull-request"></i>
+                  </div>
+                  <div class="numbers">1k</div>
+                  <p>Complete Project</p>
+                </div>
+              </div>
+              <!-- column 2 -->
+              <div class="col-2" data-aos="fade-up">
+                <div class="contact-card flex flex-col items-center gap-20">
+                  <div class="contact-card-icon">
+                    <i class="bx bx-user"></i>
+                  </div>
+                  <div class="numbers">100+</div>
+                  <p>Client Review</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2" data-aos="fade-left">
+            <div class="contact-form">
+              <h2>Send me</h2>
+             
+              <form>
+                <div class="input-group">
+                  <input type="text" required placeholder="Your Name" />
+                </div>
+                <div class="input-group">
+                  <input type="email" required placeholder="Your Email" />
+                </div>
+                <div class="input-group">
+                  <input type="number" required placeholder="Your Phone" />
+                </div>
+                <div class="input-group">
+                  <textarea required placeholder="Message"></textarea>
+                </div>
+                <div class="input-group">
+                  <button type="submit" class="btn">Submit Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="container">
+        <!-- footer top  -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-3" data-aos="fade-right">
+            <div class="flex gap-20">
+              <!-- icon -->
+              <div class="footer-icon">
+                <i class="bx bx-location-plus"></i>
+              </div>
+              <!-- text -->
+              <div>
+                <h4 class="footer-title">Address</h4>
+                <p class="my-20">
+                  Ethiopia, Oromia, Nekemte
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-3" data-aos="fade-up">
+            <div class="flex gap-20">
+              <!-- icon -->
+              <div class="footer-icon">
+                <i class="bx bx-phone-call"></i>
+              </div>
+              <!-- text -->
+              <div>
+                <h4 class="footer-title">Phone</h4>
+                <div class="my-20">
+                  <p class="primary-hover">(+251) 911083063</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-3" data-aos="fade-left">
+            <div class="flex gap-20">
+              <!-- icon -->
+              <div class="footer-icon">
+                <i class="bx bx-envelope"></i>
+              </div>
+              <!-- text -->
+              <div>
+                <h4 class="footer-title">Send us email</h4>
+                <div class="my-20">
+                  <p class="primary-hover">mulualemgobena@gmail.com.com</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- line break -->
+        <div class="my-20 border-gray" data-aos="fade-up"></div>
+        <!-- footer bottom  -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-2">
+            <p>&#169; Disgn By Mulualem 2024 | All Rights Reserved</p>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2">
+            <div class="row">
+              <p class="primary-hover">Trams & Condition</p>
+              <p class="primary-hover">Privacy Policy</p>
+              <p class="primary-hover">map</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- CONTACT OVERLAY  -->
+    <div class="contact-overlay fade"></div>
+    <!-- LOADING -->
+    <div class="loading">
+      <div class="loader"></div>
+    </div>
+    <!-- Animate On Scroll Library JS Link  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- local js link  -->
+    <script src="index.js"></script>
+  </body>
+</html>
